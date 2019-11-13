@@ -1,4 +1,4 @@
-function fo() {
+function fof() {
     # Tested on OSX only.
     [ `uname -s` != 'Darwin' ] && return
 
