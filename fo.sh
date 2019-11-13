@@ -1,4 +1,4 @@
-function fof() {
+function fo() {
     # Tested on OSX only.
     [ `uname -s` != 'Darwin' ] && return
 
@@ -40,7 +40,7 @@ function fof() {
         echo "$filepath is an executable."
         return
       fi
-      # Use your favourite editor. (In my case, it's Neovim)
-      ${EDITOR:-nvim} "$filepath"
+      # Use your favourite editor. (In my case, it's vim)
+      ${EDITOR:-vim} "$filepath"
     fi
 }
